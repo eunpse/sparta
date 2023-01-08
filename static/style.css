@@ -1,0 +1,54 @@
+* { font-family: 'Do Hyeon', sans-serif; }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-itemns: center;
+    text-align: center; }
+
+.mybox {
+    width: 550px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: tomato;
+    border: 5px solid;
+    padding: 20px;
+    border-radius: 20px; }
+
+.bttn {
+    width: 600px;
+    height: 60px;
+    background-color: tomato;
+    border-color: black;
+    border: 5px solid;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    }
+
+.bttn:hover { background-color: lightsalmon; }
+
+.progress {
+    margin: auto;
+    display: block;
+    /* 전체 크기 */
+    margin-top: 30px;
+    width: 600px;
+    height: 15px;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: black;
+    }
+
+.progress-bar {
+    background: tomato;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0%; }
